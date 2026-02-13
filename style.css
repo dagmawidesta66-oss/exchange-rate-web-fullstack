@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+form input {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+span.green-arrow {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span.red-arrow {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span.gray-arrow {
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+}

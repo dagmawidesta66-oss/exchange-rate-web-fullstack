@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exchange Rate Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Exchange Rate Predictor</h1>
+
+  <form id="predictForm">
+    <label>Domestic Inflation (decimal, e.g., 0.08):</label><br>
+    <input type="number" step="0.01" id="domestic" required><br><br>
+
+    <label>Foreign Inflation (decimal, e.g., 0.03):</label><br>
+    <input type="number" step="0.01" id="foreign" required><br><br>
+
+    <label>Last Year Exchange Rate (e.g., 65.0):</label><br>
+    <input type="number" step="0.01" id="lastRate" required><br><br>
+
+    <button type="submit">Predict</button>
+  </form>
+
+  <h2>Results</h2>
+  <div id="results"></div>
+
+  <button id="showExplanationBtn">Show How to Fix / Policy Advice</button>
+  <div id="detailedExplanation" style="display:none;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
